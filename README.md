@@ -43,6 +43,17 @@ If you'd prefer to manually add the SDK to your project:
 
 ## Usage
 
+### XCode Associated Domains
+* XCode > Project > App Target > Signing & Capabilities
+
+1. Add Associated Doamins Capability
+![Associated Domain](https://fjptahzzkutbfwxdfngc.supabase.co/storage/v1/object/public/supalink-public/associated-domains-example1.png)
+
+2. Add Associated Doamin
+![Associated Domain](https://fjptahzzkutbfwxdfngc.supabase.co/storage/v1/object/public/supalink-public/associated-domains-example2.png)
+
+Format: `applinks:{your subdomain}.supalink.cc`
+
 ### Initializing the SDK
 
 To initialize the SDK and handle user session management, you can call `initSession` when your app launches:
