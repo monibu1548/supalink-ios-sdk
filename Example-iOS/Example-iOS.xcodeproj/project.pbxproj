@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		BF133F832D37C37C00087963 /* Supalink in Frameworks */ = {isa = PBXBuildFile; productRef = BF133F822D37C37C00087963 /* Supalink */; };
 		BF422D2D2D37C79C00E2AA3C /* Supalink in Frameworks */ = {isa = PBXBuildFile; productRef = BF422D2C2D37C79C00E2AA3C /* Supalink */; };
+		BF422D402D390AA700E2AA3C /* Supalink in Frameworks */ = {isa = PBXBuildFile; productRef = BF422D3F2D390AA700E2AA3C /* Supalink */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 			files = (
 				BF133F832D37C37C00087963 /* Supalink in Frameworks */,
 				BF422D2D2D37C79C00E2AA3C /* Supalink in Frameworks */,
+				BF422D402D390AA700E2AA3C /* Supalink in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +89,7 @@
 			packageProductDependencies = (
 				BF133F822D37C37C00087963 /* Supalink */,
 				BF422D2C2D37C79C00E2AA3C /* Supalink */,
+				BF422D3F2D390AA700E2AA3C /* Supalink */,
 			);
 			productName = "Example-iOS";
 			productReference = BF133F692D37C34B00087963 /* Example-iOS.app */;
@@ -117,7 +120,7 @@
 			mainGroup = BF133F602D37C34B00087963;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				BF422D2B2D37C79C00E2AA3C /* XCLocalSwiftPackageReference "../../supalink-ios-sdk" */,
+				BF422D3E2D390AA700E2AA3C /* XCRemoteSwiftPackageReference "supalink-ios-sdk" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = BF133F6A2D37C34B00087963 /* Products */;
@@ -364,12 +367,16 @@
 		};
 /* End XCConfigurationList section */
 
-/* Begin XCLocalSwiftPackageReference section */
-		BF422D2B2D37C79C00E2AA3C /* XCLocalSwiftPackageReference "../../supalink-ios-sdk" */ = {
-			isa = XCLocalSwiftPackageReference;
-			relativePath = "../../supalink-ios-sdk";
+/* Begin XCRemoteSwiftPackageReference section */
+		BF422D3E2D390AA700E2AA3C /* XCRemoteSwiftPackageReference "supalink-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/monibu1548/supalink-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
 		};
-/* End XCLocalSwiftPackageReference section */
+/* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
 		BF133F822D37C37C00087963 /* Supalink */ = {
@@ -378,6 +385,11 @@
 		};
 		BF422D2C2D37C79C00E2AA3C /* Supalink */ = {
 			isa = XCSwiftPackageProductDependency;
+			productName = Supalink;
+		};
+		BF422D3F2D390AA700E2AA3C /* Supalink */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BF422D3E2D390AA700E2AA3C /* XCRemoteSwiftPackageReference "supalink-ios-sdk" */;
 			productName = Supalink;
 		};
 /* End XCSwiftPackageProductDependency section */

@@ -1,0 +1,15 @@
+{
+  "originHash" : "58e6955efa4d2730e23f1a11f88d2c23b2579bdb7db5261ff7b4a2630fc5b797",
+  "pins" : [
+    {
+      "identity" : "supalink-ios-sdk",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/monibu1548/supalink-ios-sdk",
+      "state" : {
+        "revision" : "06e5e199db8687e45a3a649688148bb1e13cf50f",
+        "version" : "1.0.0"
+      }
+    }
+  ],
+  "version" : 3
+}
