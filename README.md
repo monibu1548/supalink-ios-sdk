@@ -1,4 +1,12 @@
 
+# ⚠️ Archived Repository
+
+This repository is archived and no longer maintained.
+No further development will be done and issues or pull requests will not be accepted.
+
+Please use [hackle-io/supalink-ios-sdk](https://github.com/hackle-io/supalink-ios-sdk) for the latest updates and ongoing support.
+
+
 # Supalink iOS SDK
 
 The **Supalink iOS SDK** is designed to help developers integrate Supalink functionality into their iOS applications. With this SDK, you can easily handle **deferred deep linking**, **user session management**, and **URL handling** for sharing and redirection purposes.
